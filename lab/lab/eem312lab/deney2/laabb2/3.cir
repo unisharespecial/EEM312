@@ -1,0 +1,12 @@
+* Title : Super egemen - 5v load resistor
+Vcc 3 0 5v
+Vin 1 0 pulse (0 5 0 2ns 2ns 504ns 1us)
+R1 3 2 50k
+M1 2 1 0 0 modn
+c1 2 0 1pf
+.model modn nmos
+.control 
+tran 1ns 3us 
+plot v(1) v(2)
+.endc
+.end

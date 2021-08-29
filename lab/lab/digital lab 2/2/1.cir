@@ -1,0 +1,15 @@
+*20394095 BARAN KIZILTAN LAB1 NMOS TRANSIENT (LAB1)
+
+.model nmosfet nmos(Vto=1 kp=20u gamma=0.37 phi=0.6 cbd=3.1e-15 cbs=3.1e-15)
+M1 2 1 0 0 nmosfet L=5u W=10u
+R1 3 2 50K
+C1 2 0 1P
+Vdc 3 0 DC 3
+Vin 1 0 pulse(0 5 0ns 2ns 2ns 500ns 1us)
+.control
+tran 10ns 2us
+plot v(1) v(2)
+dc Vin 0 5 0.1
+plot V(2) vs v(1)
+.endc
+.end

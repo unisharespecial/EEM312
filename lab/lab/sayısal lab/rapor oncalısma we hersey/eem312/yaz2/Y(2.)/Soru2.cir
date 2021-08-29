@@ -1,0 +1,10 @@
+*deniz R1=10K BV=50V
+.model D1N4148 D(IS=5.84n N=1.94 RS=0.7017 XTI=3 EG=1.11 CJO=0.95p M=0.55 VJ=0.75 FC=0.5 BV=50 IBV=100u RS=0.5664 TT=11.07)
+VIN 1 0 DC 5
+D1 1 2 D1N4148
+R1 2 0 10k
+
+.control 
+dc VIN -300 200 0.1
+plot -VIN#branch vs V(1)-V(2)
+.endc

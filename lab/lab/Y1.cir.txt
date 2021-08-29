@@ -1,0 +1,14 @@
+canberk
+.MODEL NMOSFET NMOS(VTO=1 KP=20U GAMMA=0.37 PHI=0.6+ CBD=3.1E-15 CBS=3.1E-15)
+M1 2 1 0 0 NMOSFET L=5U W=10U
+R1 3 2 50K
+C1 2 0 1P
+VDC 3 0 DC 5V
+VIN 1 0 PULSE (0 5 0 2Ns 2Ns 500Ns 1US)
+.control
+tran 10ns 2us
+plot v(1) v(2)
+dc VIN 0 5 0.1
+plot V(2) vs v(1)
+.endc
+.end

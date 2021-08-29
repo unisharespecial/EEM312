@@ -1,0 +1,17 @@
+*D1N4148 Diyot Akým - Voltaj Grafiði
+
+.model D1N4148 D(IS=5.84n  N=1.94  RS=.7017  XTI=3  EG=1.11  CJO=.95p 
++ M=.55  VJ=.75  FC=.5  BV=50  IBV=100u  TT=11.07n)
+
+
+VIN 1 0 PULSE(0 5 0 0NS 0NS 500nS 10uS)
+*VIN 1 0 DC 5
+R1 2 0 10k
+D1 1 2 D1N4148
+*.CONTROL
+*DC VIN -300 200 0.1
+*PLOT -VIN#branch vs V(1)-V(2)
+*.ENDC
+.TRAN 0.1nS 2uS
+.PLOT TRAN V(1) V(2)
+.END

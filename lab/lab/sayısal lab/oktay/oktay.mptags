@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BASLA	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	14;"	l	line:14
+C	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	76;"	q	line:76
+CNTR	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	12;"	q	line:12
+DC	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	75;"	q	line:75
+DLY	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	56;"	l	line:56
+EEADR	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	57;"	q	line:57
+EECON1	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	64;"	q	line:64
+EECON2	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	65;"	q	line:65
+EEDATA	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	56;"	q	line:56
+EEIE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	81;"	q	line:81
+EEIF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	102;"	q	line:102
+F	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	45;"	q	line:45
+FSR	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	53;"	q	line:53
+GIE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	80;"	q	line:80
+INCLUDE	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	3;"	l	line:3
+INDF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	49;"	q	line:49
+INTCON	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	59;"	q	line:59
+INTE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	83;"	q	line:83
+INTEDG	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	92;"	q	line:92
+INTF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	86;"	q	line:86
+IRP	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	69;"	q	line:69
+L1	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	59;"	l	line:59
+L2	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	62;"	l	line:62
+L3	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	65;"	l	line:65
+LIST	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	2;"	l	line:2
+NOT_PD	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	73;"	q	line:73
+NOT_RBPU	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	91;"	q	line:91
+NOT_TO	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	72;"	q	line:72
+OPTION_REG	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	61;"	q	line:61
+ORG	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	7;"	l	line:7
+PCL	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	51;"	q	line:51
+PCLATH	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	58;"	q	line:58
+PORTA	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	54;"	q	line:54
+PORTB	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	55;"	q	line:55
+PS0	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	98;"	q	line:98
+PS1	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	97;"	q	line:97
+PS2	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	96;"	q	line:96
+PSA	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	95;"	q	line:95
+RBIE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	84;"	q	line:84
+RBIF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	87;"	q	line:87
+RD	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	106;"	q	line:106
+RETURN	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	72;"	l	line:72
+RP0	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	71;"	q	line:71
+RP1	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	70;"	q	line:70
+S1	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	9;"	q	line:9
+S2	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	10;"	q	line:10
+S3	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	11;"	q	line:11
+SHOW	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	20;"	l	line:20
+STATUS	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	52;"	q	line:52
+T0CS	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	93;"	q	line:93
+T0IE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	82;"	q	line:82
+T0IF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	85;"	q	line:85
+T0SE	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	94;"	q	line:94
+TMR0	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	50;"	q	line:50
+TRISA	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	62;"	q	line:62
+TRISB	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	63;"	q	line:63
+W	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	44;"	q	line:44
+WR	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	105;"	q	line:105
+WREN	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	104;"	q	line:104
+WRERR	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	103;"	q	line:103
+Z	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	74;"	q	line:74
+_CP_OFF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	124;"	q	line:124
+_CP_ON	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	123;"	q	line:123
+_HS_OSC	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	131;"	q	line:131
+_LP_OSC	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	129;"	q	line:129
+_PWRTE_OFF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	126;"	q	line:126
+_PWRTE_ON	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	125;"	q	line:125
+_RC_OSC	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	132;"	q	line:132
+_WDT_OFF	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	128;"	q	line:128
+_WDT_ON	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	127;"	q	line:127
+_XT_OSC	C:\Program Files\Microchip\MPASM Suite\P16F84A.INC	130;"	q	line:130
+__CONFIG	C:\Documents and Settings\ogrenci\Desktop\oktay\oktay.asm	5;"	l	line:5

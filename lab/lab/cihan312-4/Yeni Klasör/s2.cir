@@ -1,0 +1,14 @@
+s1
+Vin 1 0 5V DC
+R1  2 0 10K
+D   1 2 D1N4148
+	
+.model D1N4148 D(IS=5.84n N=1.94 RS=.7017 XTI=3 EG=1.11 CJO=.95p 
++ M=.55 VJ=.75 FC=.5 BV=50 IBV=100u TT=11.07n)
+
+.CONTROL
+DC Vin -300 200 0.1
+PLOT -vin#branch vs V(1,2)
+.ENDC
+
+.END

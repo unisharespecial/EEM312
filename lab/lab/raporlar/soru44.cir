@@ -1,0 +1,20 @@
+*bige
+
+.model D1N4148 D(IS=5.84n N=1.94 RS=.7017 XTI=3 EG=1.11 CJO=.95p
++ M=.55 VJ=.75 FC=.5 BV=100 IBV=100u TT=11.07n)
+
+
+vin 2 0 0V PULSE(-10V 10V 0ns 0ns 0ns 50us 100us)
+d1 4 1 D1N4148
+d2 1 3 D1N4148
+r1 1 2 1k
+c1 1 0 5n
+vdd 3 0 3V
+vss 4 0 0V
+
+.control
+tran 1ns 500us
+plot v(2) V(1)
+.endc
+
+.end

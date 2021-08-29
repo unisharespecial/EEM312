@@ -1,0 +1,8 @@
+* Title : My first circuit - 50k load resistor
+Vcc 3 0 5v
+Vin 1 0 dc 0 pulse 0 5 2ns 5 500ns 5 0 2ns 504ns
+R1 3 2 50k
+M1 2 1 0 0 modn
+c1 2 0 1pf
+.model modn nmos
+.DC Vin 0 5 .1

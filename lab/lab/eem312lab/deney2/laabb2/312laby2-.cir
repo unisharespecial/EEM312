@@ -1,0 +1,12 @@
+* Title : diyot karakteristiði
+
+VIN 1 0 200V
+.DC VIN -300 200 0.1
+
+R1 2 0 10k
+D1 2 1 modn 
+.model modn D (IS=5.84n N=1.94 RS=.7017 XTI=3 EG=1.11 CJO=.95p 
++ M=.55 VJ=.75 FC=.5 BV=100 IBV=100u TT=11.07n)
+
+
+

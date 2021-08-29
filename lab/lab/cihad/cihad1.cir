@@ -1,0 +1,10 @@
+*Mehmet CÝhad Ozalp
+.model D1N4148 D(IS=5.84n N=1.94 RS=0.7017 XTI=3 EG=1.11 CJO=.95p
++ M=0.55 VJ=0.75 FC=0.5 BV=100 IBV=100u RS=0.5664 TT=11.07)
+VVIN 1 0 DC 5
+DD1 1 2 D1N4148
+RR1 2 0 10k
+.control
+dc VVIN -300 200 0.1
+plot -VVIN#branch VS V(1)-v(2)
+.endc

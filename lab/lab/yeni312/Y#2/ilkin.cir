@@ -1,0 +1,18 @@
+Soru 1 Diyot direnç devresi
+
+VIN 1 0 PULSE(0 5 0 0 0 12.5us 25uS)
+R1  2 0 10K
+D   1 2 D1N4148
+
+.model D1N4148 D(IS=5.84n N=1.94 RS=.7017 XTI=3 EG=1.11 CJO=.95p 
++ M=.55 VJ=.75 FC=.5 BV=50 IBV=100u TT=11.07n)
+
+.CONTROL
+
+TRAN 1NS 25uS
+
+PLOT  V(2)
+
+.ENDC
+
+.END

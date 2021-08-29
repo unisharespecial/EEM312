@@ -1,0 +1,61 @@
+.MODEL MOSN NMOS LEVEL=2 LD=0.15U TOX=200.0E-10
++ NSUB=5.36726E+15 VTO=0.743469 KP=8.00059E-05 GAMMA=0.543
++ PHI=0.6 U0=655.881 UEXP=0.157282 UCRIT=31443.8
++ DELTA=2.39824 VMAX=55260.9 XJ=0.25U LAMBDA=0.0367072
++ NFS=1E+12 NEFF=1.001 NSS=1E+11 TPG=1.0 RSH=70.00
++ CGDO=4.3E-10 CGSO=4.3E-10 CJ=0.0003 MJ=0.6585
++ CJSW=8.0E-10 MJSW=0.2402 PB=0.58
+2/4
+www.baskent.edu.tr/~engcif
+.MODEL MOSP PMOS LEVEL=2 LD=0.15U TOX=200.0E-10
++ NSUB=4.3318E+15 VTO=-0.738861 KP=2.70E-05 GAMMA=0.58
++ PHI=0.6 U0=261.977 UEXP=0.323932 UCRIT=65719.8
++ DELTA=1.79192 VMAX=25694 XJ=0.25U LAMBDA=0.0612279
++ NFS=1E+12 NEFF=1.001 NSS=1E+11 TPG=-1.0 RSH=120.6
++ CGDO=4.3E-10 CGSO=4.3E-10 CJ=0.0005 MJ=0.5052
++ CJSW=1.349E-10 MJSW=0.2417 PB=0.64
+Tablo 2 – Örnek Tanýmlamalar
+* Örnek eþ büyüklükteki MOSFET tanýmlamalarý
+M1 D G S B MOSN W=1.8u L=1.2u NRS=0.333 NRD=0.333
++ AD=6.5p PD=9.0u AS=6.5p PS=9.0u
+M2 D G S B MOSP W=1.8u L=1.2u NRS=0.333 NRD=0.333
++ AD=6.5p PD=9.0u AS=6.5p PS=9.0u
+* DIKKAT ! : Nmos ile Pmos tanýmlamasýnda drain ve source
+* tanýmlamasýna dikkat edin
+* V1=0, V2=5V, td=0, tr=tf=1n, pw=50n, per=100n
+VIN N1 N2 pulse (v1 v2 td tr tf pw per)
+....
+.control
+…
+* Vin ve Vdd’ deðerlerinin her biri için tarama (sweep) iþlemi gerçekleþtir
+dc VIN 0 5 0.1 Vdd 0 5 0.1
+…
+.endc
+Yukarýda Tablo-1 ve Tablo-2’de verilen bilgiler ve Þekil-1’de verilen çizimler
+doðrultusunda Tablo-3’de verilen iþlemleri gerçekleþtirin ve istenilen sonuçlarý elde
+edeceðiniz benzetim sonuçlarý üzerinde göstererek cevaplayýn.
+
+
+*model = bsim3v3
+*Berkeley Spice Compatibility
+* Lmin= .35 Lmax= 20 Wmin= .6 Wmax= 20
+.model MOSN NMOS
++Level= 8
++Tnom=27.0 Nch= 2.498E+17 Tox=9E-09 Xj=1.00000E-07
++Lint=9.36e-8 Wint=1.47e-7 Vth0= .6322 K1= .756 K2= -3.83e-2 K3= -2.612
++Dvt0= 2.812 Dvt1= 0.462 Dvt2=-9.17e-2
++Nlx= 3.52291E-08 W0= 1.163e-6 K3b= 2.233
++Vsat= 86301.58 Ua= 6.47e-9 Ub= 4.23e-18 Uc=-4.706281E-11
++Rdsw= 650 U0= 388.3203 wr=1 A0= .3496967 Ags=.1 B0=0.546 B1= 1
++ Dwg = -6.0E-09 Dwb = -3.56E-09 Prwb = -.213
++Keta=-3.605872E-02 A1= 2.778747E-02 A2= .9
++Voff=-6.735529E-02 NFactor= 1.139926 Cit= 1.622527E-04
++Cdsc=-2.147181E-05 Cdscb= 0 Dvt0w = 0 Dvt1w = 0 Dvt2w = 0
++ Cdscd = 0 Prwg = 0 Eta0= 1.0281729E-02 Etab=-5.042203E-03
++Dsub= .31871233 Pclm= 1.114846 Pdiblc1= 2.45357E-03 Pdiblc2= 6.406289E-03
++Drout= .31871233 Pscbe1= 5000000 Pscbe2= 5E-09 Pdiblcb = -.234
++Pvag= 0 delta=0.01 Wl = 0 Ww = -1.420242E-09 Wwl = 0
++ Wln = 0 Wwn = .2613948 Ll = 1.300902E-10
++ Lw = 0 Lwl = 0 Lln = .316394 Lwn = 0 kt1=-.3 kt2=-.051
++At= 22400 Ute=-1.48
++Ua1= 3.31E-10 Ub1= 2.61E-19 Uc1= -3.42e-10 Kt1l=0 Prt=764.3
